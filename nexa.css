@@ -1,0 +1,196 @@
+:root {
+  --bd-silver-bg: #a8a29e;
+  --bs-white: #fafafa;
+  --bs-dark-color: #09090b;
+  --bs-dark-primary: #0a0a0a;
+  --bs-light-color: #f8fafc;
+  --bs-light-primary: #cbd5e1;
+  --bs-theme-color: #7c3aed;
+  --bs-theme-primary: #4f46e5;
+  --bs-supporting-primary: #c026d3;
+  --bs-supporting-secondary: #22d3ee;
+  --font-family1: "Ubuntu";
+  --font-family2: "Bricolage Grotesque";
+  --font-family3: "Urbanist";
+  --font-family4: "Lexend Deca";
+}
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap");
+html{
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: var(--font-family3);
+  /* scroll-behavior: smooth; */
+}
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-silver-bg);
+  --bs-tooltip-color: var(--bs-white);
+}
+.navbar-bg-color {
+  background-color: var(--bs-dark-color);
+}
+.navbar-brand {
+  font-size: 3rem;
+}
+.nav-link {
+  color: var(--bs-light-color);
+}
+.nav-link:hover {
+  color: #3b82f6;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* hero-section CSS */
+.hero-bg-color {
+  background-color: var(--bs-dark-color);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-family4);
+}
+h1 {
+  font-size: 4rem;
+  /* font-weight:bolder; */
+  color: var(--bs-light-color);
+}
+p {
+  margin: 0;
+  color: var(--bd-silver-bg);
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 0.07rem;
+  line-height: 1.55rem;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+.hero--section-video {
+  height: auto;
+  width: 70vh;
+  border-radius: 2rem;
+}
+.hero-bg-main {
+  height: 90vh;
+  position: relative;
+}
+.hero-section .container {
+  display: grid;
+  place-content: center;
+  height: inherit;
+}
+/* wave-cut */
+.custom-shape-divider-bottom-1697228169 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1697228169 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 107px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1697228169 .shape-fill {
+  fill: #ffffff;
+}
+
+/* services section */
+.common-title {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+.common-heading {
+  font-size: 3rem;
+  letter-spacing: 0.01rem;
+}
+
+.card:hover {
+  box-shadow: #a1a1aa 0px 8px 24px;
+  cursor: pointer;
+}
+.more-info-section {
+  background-image: url(https://images.unsplash.com/photo-1628746404106-4d3843b231b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2F2aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6rem 0;
+  overflow: hidden;
+}
+.img-section img {
+  width: 70%;
+}
+/* business-section */
+.business-section {
+  padding-top: 2rem;
+}
+/* testimonialsection */
+.testimonial-section {
+  background-color: var(--bs-dark-primary);
+  color: var(--bs-light-color);
+  height: 900px;
+}
+.col-alignment {
+  margin-left: 170px;
+  margin-top: auto;
+}
+.beautify:hover {
+  background-color: var(--bs-dark-color);
+  color: var(--bs-dark-color);
+}
+/* contact us */
+.contact-us-section {
+  background-color: var(--bs-dark-color);
+  color: var(--bs-light-color);
+  height: 1200px;
+  position: relative;
+  padding: 46px;
+  margin-top: -16px;
+}
+
+.container-contact {
+  padding-top: 10rem;
+}
+
+.custom-shape-divider-top-1697393464 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1697393464 svg {
+  position: relative;
+  display: block;
+  width: calc(133% + 1.3px);
+  height: 195px;
+}
+
+.custom-shape-divider-top-1697393464 .shape-fill {
+  fill: #ffffff;
+}
+.footer-section{
+  background-color: rgba(31,41,55,0.74);
+}
